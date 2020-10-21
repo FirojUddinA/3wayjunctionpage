@@ -116,6 +116,7 @@ a.btn {
 }
 
 #junction {
+    overflow: hidden;
     background-image: url("../img/Filler.png"), linear-gradient(166deg, rgba(0, 0, 0, 0.99) 0%, rgba(0, 0, 0, 0.99) 100%) !important
 }
 
@@ -123,8 +124,23 @@ a.btn {
     text-align: center;
     color: white;
     padding: 142px 50px 0;
+    
+    
 }
-
+/* #junction .col-md-4::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(192, 58, 58);
+    transform: skewX(-10deg);
+    
+} */
+#junction .col-md-4:first-child{}
+#junction .col-md-4:nth-child(2){}
+#junction .col-md-4:last-child{}
 #junction .junction-content h2 {
     font-size: 22px;
     padding-bottom: 20px;

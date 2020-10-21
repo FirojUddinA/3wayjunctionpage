@@ -86,14 +86,20 @@ a.btn {
     font-size: 16px;
     padding: 8px 16px;
     color: #ffffff;
-    background-color: #ff4530;
+    
     /* background-color: #ff4530; */
     /* border-radius: 20px; */
-    
+    transition: .3s;
+    border: 2px solid #fff;
     text-transform: uppercase
 }
-#header_area ul#nav li a:hover {
-    color: #df4a43
+#header_area ul#nav-lan button.language-btn:hover{
+    color: #8CC63F;
+    border-color: #8CC63F;
+}
+#header_area ul#nav-lan  button.active{
+    color: #8CC63F;
+    border-color: #8CC63F;
 }
 
 #header_area.scrolled {
@@ -126,11 +132,14 @@ a.btn {
 }
 
 #junction .junction-content h1 {
-    font-size: 62px;
+    font-size: 44px;
     font-weight: bold;
     padding-bottom: 20px;
     margin-top: 16px;
+    word-wrap: break-word;
+    
 }
+
 #junction .junction-content h1 a{
     color: #ffffff;
     transition: .3s;
@@ -148,15 +157,20 @@ a.btn {
 #junction .junction-content a.btn {
     font-size: 19px;
     color: #ffffff;
-    background: linear-gradient( rgba(140, 198, 63, 0.99) 0%, rgba(247, 147, 30, 0.99) 100%) !important;
-    margin-top: 20px;
-    margin-bottom: 100px;
+    /* background: linear-gradient( rgba(140, 198, 63, 0.99) 0%, rgba(247, 147, 30, 0.99) 100%) !important; */
+    
+    margin:20px 0 100px;
+    
     border-radius: 30px;
     transition: .3s;
-    border: 3px solid #ffffff;
+    border: 3px solid #ffffff8a;
+    background: #4b4d66;
+    font-size: 15px;
 }
+
 #junction .junction-content a.btn:hover{
-    background: linear-gradient( rgba(247, 147, 30, 0.99) 0%, rgba(140, 198, 63, 0.99) 100%) !important;
+    background: #6870dd;
+    border-color: #6870dd;
 
 }
 
@@ -336,6 +350,9 @@ footer#footer .footer-copyright .copyright a:hover {
 
     .child_feature_area {
         width: 47% !important
+    }
+    #junction .junction-content h1{
+        font-size: 22px;
     }
 }
 
